@@ -23,6 +23,7 @@ function DashboardPage() {
   const handleRoomClick = (id) => {
     navigate(`/room/${id}`);
   };
+  
 
   return (
     <div style={styles.container}>
